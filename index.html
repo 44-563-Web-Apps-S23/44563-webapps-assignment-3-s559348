@@ -24,6 +24,45 @@
             <li>langus</li>
             <li>patel</li>
         </ul> 
-        <a href ="aboutme.html">Link </a>
+        <a href ="aboutme.html"> Link </a>
+        <hr>
+        <h4> 4 best countries to visit </h4>
+        <table>
+            <tr> 
+                <th> Country</th>
+                <th> Reason </th>
+                <th> Number of Day's </th>
+            </tr>
+            <tr> 
+                <td> srilanka </td>
+                <td> real of ramayana </td>
+                <td> 15 Day's </td>
+             </tr>
+             <tr>
+                <td> South Africa </td>
+                <td> crisis </td>
+                <td> 12 Day's</td>
+             </tr>
+             <tr>
+                <td> Ugand </td>
+                <td> Diamonds</td>
+                <td> 5 day's </td>
+             </tr>
+            <tr> 
+                <td>korea</td>
+                <td> one time meet kim </td>
+                <td> 2 Day's</td>
+            </tr>
+        </table>
+        <hr>
+        <b>Make entire Div Clickable</b>
+        <pre>
+            $(".myBox").click(function() {
+                window.location = $(this).find("a").attr("href"); 
+                return false;
+              });
+        </pre>
+        <a href="https://css-tricks.com/snippets/jquery/make-entire-div-clickable/">Link to css css-tricks</a>
+
 </body>
 </html>
